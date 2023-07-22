@@ -1,3 +1,4 @@
+//https://www.codewars.com/kata/643a47fadad36407bf3e97ea
 #include <stdlib.h>
 
 //  return dynamically allocated C-string
