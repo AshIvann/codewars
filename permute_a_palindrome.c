@@ -1,5 +1,6 @@
 //https://www.codewars.com/kata/58ae6ae22c3aaafc58000079
 #include <stdbool.h>
+#include <string.h>
 bool permute_a_palindrome(const char *str_in) 
 {
 int count_symbols[26] = {0};
@@ -7,8 +8,7 @@ int count_symbols[26] = {0};
   int count = 0;
   int res = 0;
   
-while(*(str_in+symbols)){symbols++;};
-int mas2[symbols];
+  symbols = strlen(str_in);
   
  for(int i = 0; i < symbols; i++)
    {
